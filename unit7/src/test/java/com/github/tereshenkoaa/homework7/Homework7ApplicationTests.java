@@ -6,9 +6,9 @@ import org.springframework.shell.jline.InteractiveShellApplicationRunner;
 
 @SpringBootTest
 class Homework7ApplicationTests {
-
 	@Test
 	void contextLoads() {
+		
 	}
 
 }

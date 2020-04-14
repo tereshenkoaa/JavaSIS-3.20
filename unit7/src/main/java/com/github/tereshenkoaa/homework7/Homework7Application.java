@@ -13,7 +13,6 @@ import javax.annotation.PostConstruct;
 public class Homework7Application {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(Homework7Application.class, args);
 	}
 

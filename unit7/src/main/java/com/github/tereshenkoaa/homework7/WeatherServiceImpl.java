@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 public class WeatherServiceImpl implements WeatherService {
 
     private final RestTemplate restTemplate;
-
     public WeatherServiceImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }

@@ -10,7 +10,6 @@ import java.util.List;
 public class WeatherDataServiceImpl implements WeatherDataService {
 
     private final JdbcTemplate jdbcTemplate;
-
     public WeatherDataServiceImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }

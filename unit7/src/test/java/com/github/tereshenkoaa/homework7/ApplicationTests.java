@@ -16,7 +16,6 @@ class ApplicationTests {
 
     @Autowired
     private WeatherService weatherService;
-
     @Test
     public void getWeather() {
         String weather = weatherService.getWeather();
